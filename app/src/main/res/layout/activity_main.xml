@@ -1,0 +1,56 @@
+<!-- activity_main.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main Activity"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnGo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Pergi ke Halaman Kedua (Explicit)" />
+
+    <Button
+        android:id="@+id/btnOpenUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buka Website" />
+
+    <Button
+        android:id="@+id/btnDialPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dial Telepon" />
+
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bagikan Teks" />
+
+    <Button
+        android:id="@+id/btnIsiForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Isi Form (Result)" />
+
+    <TextView
+        android:id="@+id/tvHasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Hasil dari form akan muncul di sini"
+        android:textSize="16sp" />
+</LinearLayout>
